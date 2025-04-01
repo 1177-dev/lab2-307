@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <!-- 引入Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .resume-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            width: 15%;
+        }
+        .photo-cell {
+            width: 100px;
+            height: 120px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #eee;
+        }
+        .section-title {
+            font-weight: bold;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .multi-line {
+            white-space: pre-line;
+            vertical-align: top;
+        }
+        /* 图标样式 */
+        .icon {
+            margin-right: 8px;
+            color: #3498db;
+            width: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-title">个人简历</div>
+        
+        <!-- 基本信息 -->
+        <table>
+            <tr>
+                <th>姓名</th>
+                <td>张静</td>
+                <th>性别</th>
+                <td>女</td>
+                <th>年龄</th>
+                <td>19</td>
+            </tr>
+            <tr>
+                <th><i class="fas fa-home icon"></i>籍贯</th>
+                <td>山东聊城</td>
+                <th><i class="fas fa-phone icon"></i>联系电话</th>
+                <td>13369517837</td>
+                <th><i class="fas fa-envelope icon"></i>电子邮箱</th>
+                <td>2180074696@qq.com</td>
+                <th rowspan="3">
+                    <img src="张静.jpg" width="100" height="120" alt="个人照片">
+                </th>
+            </tr>
+            <tr>
+                <th><i class="fas fa-graduation-cap icon"></i>学历</th>
+                <td>本科</td>
+                <th><i class="fas fa-heartbeat icon"></i>健康状况</th>
+                <td>良好</td>
+                <th><i class="fas fa-heart icon"></i>婚姻状况</th>
+                <td>未婚</td>
+            </tr>
+        </table>
+        
+        <!-- 求职意向 -->
+        <table>
+            <tr>
+                <th class="section-title" colspan="6"><i class="fas fa-briefcase icon"></i>求职意向</th>
+            </tr>
+            <tr>
+                <th><i class="fas fa-bullseye icon"></i>期望职位</th>
+                <td colspan="2">前端开发工程师</td>
+                <th><i class="fas fa-laptop-code icon"></i>专业</th>
+                <td colspan="2">软件工程</td>
+            </tr>
+            <tr>
+                <th><i class="fas fa-university icon"></i>毕业院校</th>
+                <td colspan="5">鲁东大学</td>
+            </tr>
+        </table>
+        
+        <!-- 技能证书 -->
+        <table>
+            <tr>
+                <th class="section-title" colspan="6">技能证书</th>
+            </tr>
+            <tr>
+                <td colspan="6" class="multi-line">
+• 全国计算机等级考试二级证书
+• 普通话二级甲等
+                </td>
+            </tr>
+        </table>
+        
+        <!-- 个人特长与爱好 -->
+        <table>
+            <tr>
+                <th class="section-title" colspan="6">个人特长与爱好</th>
+            </tr>
+            <tr>
+                <td colspan="6" class="multi-line">
+• 熟练掌握HTML5、CSS3、JavaScript等前端技术
+• 熟悉Vue.js、React等前端框架
+• 爱好游泳等体育运动
+• 喜欢阅读技术博客和书籍
+                </td>
+            </tr>
+        </table>
+        
+        <!-- 项目经历 -->
+        <table>
+            <tr>
+                <th class="section-title" colspan="6"></i>项目经历</th>
+            </tr>
+            <tr>
+                <th>项目名称</th>
+                <th>时间</th>
+                <th colspan="4">项目描述</th>
+            </tr>
+            <tr>
+                <td>电商网站开发</td>
+                <td>2020.03-2020.08</td>
+                <td colspan="4" class="multi-line">
+• 负责前端页面开发，使用Vue.js框架
+• 实现商品展示、购物车功能
+• 优化页面加载速度，提升用户体验
+                </td>
+            </tr>
+            <tr>
+                <td>企业管理系统</td>
+                <td>2021.01-2021.06</td>
+                <td colspan="4" class="multi-line">
+• 参与系统架构设计
+• 开发数据可视化模块
+• 解决跨浏览器兼容性问题
+                </td>
+            </tr>
+        </table>
+        
+        <!-- 自我评价 -->
+        <table>
+            <tr>
+                <th class="section-title" colspan="6">自我评价</th>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    我叫张静，来自山东聊城，一位积极向上且富有热情的年轻人。我出生于一个普通但充满爱的家庭，从小就接受了良好的家庭教育，培养了坚韧不拔的性格和积极乐观的生活态度。在学业方面，我一直勤奋刻苦，追求卓越。我在学校里不仅努力学习专业知识，还积极参加各种课外活动，锻炼自己的综合素质。我善于思考，具有较强的分析问题和解决问题的能力，这使得我在学习和生活中都能够取得优异的成绩。在人际关系方面，我性格开朗，乐于助人，与同学们和朋友们都保持着良好的关系。我善于倾听他人的意见和建议，能够与不同性格的人和谐相处。此外，我还具有较强的团队合作精神，能够在团队中发挥自己的优势，为团队的成功贡献自己的力量。
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
